@@ -1,0 +1,23 @@
+{
+    "operaciones": [
+ 
+        {
+            "id": "1",
+            "up": "2",
+            "down": "1",
+            "resultado": "2"
+         },
+         {
+            "id": "2",
+            "up": "3",
+            "down": "2",
+            "resultado": "6"
+         },
+         {
+            "id": "3",
+            "up": "4",
+            "down": "2",
+            "resultado": "8"
+         }
+    ]
+ }

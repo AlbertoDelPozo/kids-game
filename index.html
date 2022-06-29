@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./script.js" defer></script>
+
+
+<body>
+    <div class="d-flex flex-column justify-content-center align-items-center ">
+        <div class="alert alert-success mt-5 mb-5" role="alert" id="success" style="display: none;">
+            Para la última pista encontrar, donde tenéis vuestra ropa deberéis mirar
+        </div>
+        <div class="alert alert-danger mt-5 mb-5" role="alert" id="fail" style="display: none;">
+            Alguna operación está mal, prestad un poco más de atención :)
+        </div>
+        <h1>Para pasar al siguiente nivel, los problemas debes resolver</h1>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row row-cols-5 mt-5">
+                <div id="0" class="col 1"></div>
+                <div id="1" class="col 2"></div>
+                <div id="2" class="col 3"></div>
+                <div id="3" class="col 4"></div>
+                <div id="4" class="col 5"></div>
+                <div id="5" class="col 6"></div>
+                <div id="6" class="col 7"></div>
+                <div id="7" class="col 8"></div>
+                <div id="8" class="col 9"></div>
+                <div id="9" class="col 10"></div>
+            </div>
+        </div>
+        <button class="btn btn-outline-info mt-5" onclick=validateResultado()>Corregir</button>
+    </div>
+</body>
+</html>
